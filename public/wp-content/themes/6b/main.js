@@ -23,7 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
 // Slider
 //
 new Glide(".glide", {
+    type: 'carousel',
+    startAt: 0,
     hoverpause: true,
+    autoPlay: true,
+    autoplay: 2000,
     breakpoints: {
     },
 }).mount();
